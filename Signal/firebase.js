@@ -19,9 +19,9 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
-const auth = getAuth(app);
+const auth = getAuth(app); // Para entrar no copmutador
 /*const auth = initializeAuth(app, {
   persistence: getReactNativePersistence(ReactNativeAsyncStorage)
-});*/
+});*/ //Para entrar no mobile e continur logado
 
 export { db, auth };
