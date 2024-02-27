@@ -1,4 +1,5 @@
 {
-  "name": "user",
-  "packageManager": "yarn@4.0.2"
+  "devDependencies": {
+    "prettier": "3.2.5"
+  }
 }
